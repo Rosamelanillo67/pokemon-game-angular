@@ -1,11 +1,15 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
-
 import { HomeComponent } from './pages/home/home.component';
+import { IniciarSessioFraderaComponent } from '../iniciar-sessio-fradera/iniciar-sessio-fradera.component';
 
 const routes: Routes = [
   {
-    path: 'home',
+    path: 'issesioFradera',
+    component: IniciarSessioFraderaComponent
+  },
+  {
+    path: 'issesioFradera',
     component: HomeComponent
   },
   {
@@ -18,7 +22,7 @@ const routes: Routes = [
   },
   {
     path: '**',
-    redirectTo: 'home'
+    redirectTo: 'issesioFradera'
   }
 ];
 
