@@ -1,0 +1,8 @@
+<div class="formulario-contenedor">
+  <form name="iniciarSesionFrajerosForm">
+    <label for="nomJugador">JUGADOR:</label>
+    <input type="text" id="nomJugador" name="nomJugador" ng-model="nombreJugador" required>
+    <br>
+  </form>
+  <button type="submit" ng-click="jugar()" ng-disabled="jugando" class="jugar-boton">Jugar</button>
+</div>

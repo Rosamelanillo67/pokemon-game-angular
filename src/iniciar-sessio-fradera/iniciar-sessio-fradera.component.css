@@ -1,0 +1,15 @@
+.jugar-boton {
+  width: 200px;
+  height: 50px;
+  font-size: 18px;
+  margin-left: 10px;
+  background-color: blue;
+  color: white;
+  border-radius: 10px;
+}
+
+.formulario-contenedor {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
